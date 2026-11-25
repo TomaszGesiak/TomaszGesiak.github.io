@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tomasz Gęsiak – Architekt</title>
+<meta name="description" content="Tomasz Gęsiak – architekt. AI i BIM w architekturze, projekty, konkursy oraz blog o urbanistyce i zawodzie architekta.">
+<link rel="alternate" hreflang="en" href=".././">
+<link rel="alternate" hreflang="pl" href="../pl/">
+<link rel="alternate" hreflang="x-default" href=".././">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body id="top">
+
+<header class="top">
+  <a class="logo" href="#top" aria-label="Tomasz Gęsiak – początek strony">TOMASZ<b>GĘSIAK</b></a>
+  <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Menu"><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#ai">AI</a>
+    <a href="#bim">BIM</a>
+    <a href="#projekty">Projekty</a>
+    <a href="#blog">Blog</a>
+    <a class="lang" href="../" hreflang="en" lang="en">EN</a>
+  </nav>
+</header>
+
+<img class="ai-badge" src="../images/ai-generated.png" alt="AI GENERATED – strona wygenerowana przez AI" width="160" height="31">
+
+<section class="hero">
+  <div class="hero-txt">
+    <p class="kicker">Architekt · ponad 20 lat praktyki · MOIA RP</p>
+    <h1>Architektura jako żywy ekosystem tworzony dla ludzi</h1>
+    <p class="lead">Budynki publiczne, konkursy, domy i wnętrza – oraz teksty i wystąpienia o tym, jak sztuczna inteligencja, BIM i prawo zmieniają zawód architekta.</p>
+    <div class="btns">
+      <a class="btn" href="#ai">AI w architekturze</a>
+      <a class="btn ghost" href="#bim">BIM</a>
+      <a class="btn ghost" href="#projekty">Projekty</a>
+    </div>
+  </div>
+  <figure class="hero-pic">
+    <img id="hero-img" src="../images/hero.jpg" alt="Wizualizacja budynku mieszkalnego – biała elewacja, przeszklone balkony, ogród" width="1280" height="1021">
+  </figure>
+</section>
+
+<section class="band" id="ai">
+  <div class="sec-head"><span class="num">01</span><h2>AI</h2></div>
+  <div class="arts" id="ai-arts"></div>
+  <p class="more"><a href="https://tomaszgesiak.blogspot.com/">Więcej o AI na blogu →</a></p>
+</section>
+
+<section class="band alt" id="bim">
+  <div class="sec-head"><span class="num">02</span><h2>BIM</h2></div>
+  <div class="arts" id="bim-arts"></div>
+  <p class="more"><a href="https://tomaszgesiak.blogspot.com/">Więcej o BIM na blogu →</a></p>
+</section>
+
+<section class="band" id="projekty">
+  <div class="sec-head"><span class="num">03</span><h2>Projekty</h2></div>
+  <div class="filters" role="tablist" aria-label="Filtr projektów"></div>
+  <div class="grid" id="projects"></div>
+  <p class="more"><a href="https://sites.google.com/view/tomaszgesiak/projekty">Wszystkie projekty →</a></p>
+</section>
+
+<section class="band alt" id="blog">
+  <div class="sec-head"><span class="num">04</span><h2>Blog</h2></div>
+  <p class="note">Najnowsze wpisy z bloga tomaszgesiak.blogspot.com</p>
+  <div class="posts" id="posts"></div>
+  <p class="more"><a href="https://tomaszgesiak.blogspot.com/">Przejdź do bloga →</a></p>
+</section>
+
+<footer class="foot">
+  <div class="foot-in">
+    <div>
+      <a class="logo" href="#top">TOMASZ<b>GĘSIAK</b></a>
+      <p>Architekt. Absolwent Politechniki Krakowskiej, członek Mazowieckiej Okręgowej Izby Architektów RP.</p>
+      <p class="langs"><a href=".././" hreflang="en" lang="en">English</a> · <a href="../pl/" hreflang="pl" lang="pl">Polski</a></p>
+    </div>
+    <ul class="social" id="social" aria-label="Media społecznościowe"></ul>
+  </div>
+  <div class="foot-ai">
+    <img src="../images/ai-generated.png" alt="AI GENERATED" width="130" height="25">
+    <p>Ta strona została wygenerowana przez AI (AI GENERATED).</p>
+  </div>
+  <div class="foot-privacy">
+    <p>Prywatność: ta strona nie ustawia własnych plików cookies i nie korzysta z analityki ani śledzenia. Jest hostowana w GitHub Pages – GitHub zapisuje adresy IP odwiedzających w celach bezpieczeństwa. Czcionki (Google Fonts) oraz wpisy i grafiki z bloga (Blogger, Google) są ładowane od zewnętrznych dostawców, zgodnie z ich politykami prywatności. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">Polityka prywatności GitHub</a> · <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection" target="_blank" rel="noopener">GitHub Pages – zbieranie danych</a></p>
+  </div>
+  <div class="foot-bar"><span>© <span id="year"></span> Tomasz Gęsiak</span><a href="#top">Do góry ↑</a></div>
+</footer>
+
+<script src="../js/data.js"></script>
+<script src="../js/main.js"></script>
+<script async src="https://tomaszgesiak.blogspot.com/feeds/posts/default?alt=json-in-script&max-results=6&callback=renderBlog"></script>
+</body>
+</html>
